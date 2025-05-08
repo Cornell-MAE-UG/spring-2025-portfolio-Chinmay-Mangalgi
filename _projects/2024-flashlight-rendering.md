@@ -6,7 +6,7 @@ technologies: [Autodesk Fusion]
 image: /assets/images/image_copy.png
 ---
 
-For a class assignment, we were challenged to CAD a mechanically complex object of our choice. I decided to model a functional flashlight, focusing not just on the outer housing but also on internal components like the battery compartment, switch mechanism, and threaded cap. The goal was to create a detailed, manufacturable design that could be 3D printed or machined if needed.
+For a class assignment, we were challenged to CAD a mechanically complex object of our choice. I decided to model a functional flashlight, focusing not just on the outer housing but also on internal components like the battery compartment, switch mechanism, and threaded cap. The goal was to create a detailed, aesthetic design that could be 3D printed or machined if needed.
 
 ![Shaded rendering of flashlight model]({{ "/assets/images/image_copy.png" | relative_url }}){: .inline-image-r style="width: 200px" }
 
