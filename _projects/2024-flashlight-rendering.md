@@ -3,12 +3,12 @@ layout: project
 title: Flashlight CAD Rendering
 description: Advanced CAD Project
 technologies: [Autodesk Fusion]
-image: /assets/images/image copy.jpg
+image: /assets/images/image_copy.png
 ---
 
 For a class assignment, we were challenged to CAD a mechanically complex object of our choice. I decided to model a functional flashlight, focusing not just on the outer housing but also on internal components like the battery compartment, switch mechanism, and threaded cap. The goal was to create a detailed, manufacturable design that could be 3D printed or machined if needed.
 
-![Shaded rendering of flashlight model]({{ "/assets/images/image copy.jpg" | relative_url }}){: .inline-image-r style="width: 200px" }
+![Shaded rendering of flashlight model]({{ "/assets/images/image_copy.png" | relative_url }}){: .inline-image-r style="width: 200px" }
 
 This project pushed me to think carefully about how different parts interact; how threads align, how tolerances affect fit, and how real-world constraints like waterproofing and assembly order influence design choices. It was also a chance to refine my modeling workflow in Fusion and explore the balance between function and form.
 

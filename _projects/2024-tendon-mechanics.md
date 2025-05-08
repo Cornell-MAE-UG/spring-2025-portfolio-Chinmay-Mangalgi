@@ -3,6 +3,7 @@ layout: project
 title: "Tendon Mechanical Testing Automation for Data Analysis"
 description: MATLAB Analysis
 technologies: [MATLAB]
+image: /workspaces/spring-2025-portfolio-Chinmay-Mangalgi/assets/images/1_marked.png
 ---
 
 ## Tendon Mechanical Testing Automation (MATLAB)
