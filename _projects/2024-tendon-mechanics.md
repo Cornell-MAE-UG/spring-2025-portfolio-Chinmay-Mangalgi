@@ -10,7 +10,10 @@ image: /assets/images/1_marked.png
 
 This project involved writing a MATLAB script to automate the analysis of mechanical testing data from supraspinatus tendon samples. The script processes raw load-displacement CSV data to compute stress-strain curves, extract mechanical properties, and visualize viscoelastic behavior through relaxation and hysteresis.
 
-![Stress-Strain Plot with Best-Fit Line]({{ "/assets/images/1_marked.png" | relative_url }}){: .inline-image-r style="width: 500px" }
+<figure>
+  <img src="{{ '/assets/images/1_marked.png' | relative_url }}" alt="Stress-Strain Plot with Best-Fit Line" style="width: 500px;" />
+  <figcaption style="text-align: center;">Stress-Strain Plot with Best-Fit Line for Sample Data</figcaption>
+</figure>
 
 ---
 

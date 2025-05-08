@@ -14,6 +14,10 @@ This project pushed me to think carefully about how different parts interact; ho
 
 I took inspiration from durable, tactical-style flashlights often used in outdoor and industrial settings. The result is a clean, modular design that could easily be adapted for different use cases or scaled for production.
 
-![Example Flashlight]({{ "/assets/images/image.png" | relative_url }})
+<figure>
+  <img src="{{ '/assets/images/image.png' | relative_url }}" alt="Example Flashlight" style="width: 300px;" />
+  <figcaption style="text-align: center;">Example Flashlight</figcaption>
+</figure>
+
 
 One of the biggest challenges in this project was accurately modeling the threading for the flashlight cap and body. Getting the alignment right while maintaining a watertight seal required multiple iterations and careful attention to clearances. I also had to rethink how the switch mechanism would be realistically actuated, since the initial concept didn’t leave enough space for user interaction. If I were to revisit this design, I’d explore more efficient ways to integrate an LED heat sink, optimize the parting lines for easier assembly, and potentially incorporate O-ring grooves for better water resistance. This project gave me a deeper appreciation for how small design choices affect real-world usability and manufacturability. It really is not easy to create something that is so ubiquitous in our lives!
