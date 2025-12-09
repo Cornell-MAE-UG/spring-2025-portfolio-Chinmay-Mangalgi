@@ -1,0 +1,29 @@
+---
+layout: project
+title: Water Pump Dissection and Analysis Video
+description: Fluid Mechanical Dissection.
+topics: Fluid Mechanics (MAE 3230)
+---
+
+This project was to disassemble and dissect a HONDA WX15 engine-powered water pump. Our group analyzed both the carburetor and the centrifugal pump; I performed the pump portion of the work — disassembling the pump to inspect the impeller, seals, and internal flow paths, then analyzing how fluid would flow through the pump in a normal use case. I recorded the full dissection and a short analysis video.
+
+Watch the video on YouTube:
+
+[Watch: Water Pump Dissection and Analysis](https://www.youtube.com/watch?v=26rgSKUKajY){:target="_blank"}
+
+You can embed the video below (already set to the video ID):
+
+<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+	<iframe src="https://www.youtube.com/embed/26rgSKUKajY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
+
+What I did:
+
+- Disassembled the pump and documented component geometry.
+- Measured key dimensions and inspected seals for wear.
+- Analyzed flow paths and discussed implications for efficiency and failure.
+- Summarized findings and suggested improvements.
+
+If you'd like, I can commit this change and push it to the repo, or remove the embed and keep only the external link.
+
+
