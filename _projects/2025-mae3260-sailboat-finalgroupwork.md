@@ -8,16 +8,22 @@ image: /spring-2025-portfolio-Chinmay-Mangalgi/assets/images/boat.png
 
 <p>
     For the final group work for MAE 3260, I developed a nonlinear sailboat dynamics simulator in MATLAB, including a
-    <strong>PD heading controller</strong> and a full <strong>animated 2-D visualization</strong> of the boat as it tracks a waypoint.
+    PD heading controller and a full animated 2-D visualization of the boat as it tracks a waypoint.
     I wrote the simulation and animation code, which numerically integrates the system with ODE45 and animates the boat's position using coordinate transforms derived from Jacobian matrices.
 </p>
 
-<p>
-    <img src="/spring-2025-portfolio-Chinmay-Mangalgi/assets/images/sailboat_animation.gif"
-         alt="Animation of the sailboat moving to a predetermined waypoint">
-</p>
+<figure>
+  <img src="/spring-2025-portfolio-Chinmay-Mangalgi/assets/images/sailboat_animation.gif"
+       alt="Animation of the sailboat moving to a predetermined waypoint">
+  <figcaption>
+    MATLAB animation of the sailboat tracking a 45° heading waypoint under PD control.
+  </figcaption>
+</figure>
 
-<p>
-    <img src="/spring-2025-portfolio-Chinmay-Mangalgi/assets/images/mae3260final.png"
-         alt="System properties of the boat over time">
-</p>
+<figure>
+  <img src="/spring-2025-portfolio-Chinmay-Mangalgi/assets/images/mae3260final.png"
+       alt="System properties of the boat over time">
+  <figcaption>
+    Time histories of heading, yaw rate, forward speed, and rudder input. Note rudder saturation at 30 degrees. 
+  </figcaption>
+</figure>
