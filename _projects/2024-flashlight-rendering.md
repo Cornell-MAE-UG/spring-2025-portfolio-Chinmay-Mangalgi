@@ -2,6 +2,7 @@
 layout: project
 title: Flashlight CAD Rendering
 description: Advanced CAD Project
+topics: Mechanical Synthesis (MAE 2250)
 technologies: [Autodesk Fusion]
 image: /assets/images/image_copy.png
 ---

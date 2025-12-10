@@ -2,6 +2,7 @@
 layout: project
 title: "Tendon Mechanical Testing Automation for Data Analysis"
 description: MATLAB Analysis
+topics: Research
 technologies: [MATLAB]
 image: /assets/images/1_marked.png
 ---
