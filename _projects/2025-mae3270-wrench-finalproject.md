@@ -8,7 +8,7 @@ image: /assets/images/cadmodel.png
 
 The final project for this class involved designing a torque wrench that can not only apply a specified torque but also measure it using strain gauges. Starting from a steel baseline design, I evaluated structural performance using both hand calculations and finite element analysis (FEA). To improve sensitivity and reduce weight, I selected a new material using materials indices and updated the geometry while still meeting required safety factors for strength, fracture, and fatigue. I then verified the final design in ANSYS, extracted strain at the gauge location, and confirmed that the electrical output is sufficient for accurate torque measurement. The results below summarize the design decisions and analyses used to achieve a functional, instrumented torque wrench.
 
-## 5.2.1 Results
+## Results
 
 ### 1. Image(s) of CAD Model
 
@@ -24,13 +24,11 @@ The improved design uses a rectangular beam handle with dimensions h = 0.70 in (
 
 Material properties (use SI or imperial consistently; values below are in imperial units):
 
-| Property | Value | Units / Notes |
-|---|---:|---|
-| Young’s Modulus, E | 13.1e6 | psi |
-| Poisson’s Ratio, ν | 0.33 | — |
-| Yield Strength, σ_y | 130e3 | psi (130 ksi) |
-| Fracture Toughness, K_IC | 80.1e3 | psi·√in (80.1 ksi·√in) |
-| Fatigue Strength (10^6 cycles) | 90e3 | psi (90 ksi) |
+Young's Modulus: 13.1e6 psi
+Poisson's Ratio: 0.33
+Yield Strength: 130 ksi
+Fracture Toughness: 80.1 ksi√in
+Fatigue Strength (10⁶ cycles): 90,000 psi
 
 This alloy was selected after plotting normalized yield strength vs normalized fracture toughness.
 
@@ -91,7 +89,5 @@ Calculated output ≈ 1.5 mV/V at 600 in·lb, which exceeds the target sensitivi
 - **Gauge grid length:** ≈ 0.12 in (3 mm)
 - **Grid width:** ≈ 0.08–0.12 in
 - **Backing / package size:** ≈ 0.25 in × 0.15 in
-
-The wrench handle has 0.70 in of flat width, so there is ample bonding area. Gauges are aligned longitudinally to measure bending strain with one on the top (tension) and one on the bottom (compression), arranged in a half-bridge for increased sensitivity.
 
 The wrench handle has 0.70 in of flat width, so there is ample bonding area. Gauges are aligned longitudinally to measure bending strain with one on the top (tension) and one on the bottom (compression), arranged in a half-bridge for increased sensitivity.
