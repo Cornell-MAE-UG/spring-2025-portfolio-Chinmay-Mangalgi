@@ -3,7 +3,7 @@ layout: project
 title: Sailboat Dynamics and Control
 description: MAE 3260 Final Group Work
 topics: System Dynamics (MAE 3260)
-image: /assets/images/boat.png
+image: /spring-2025-portfolio-Chinmay-Mangalgi/assets/images/boat.png
 ---
 
 <p>
@@ -13,9 +13,11 @@ image: /assets/images/boat.png
 </p>
 
 <p>
-    <img src="/assets/images/sailboat_animation.gif" alt="Animation of the sailboat moving to a predetermined waypoint">
+    <img src="/spring-2025-portfolio-Chinmay-Mangalgi/assets/images/sailboat_animation.gif"
+         alt="Animation of the sailboat moving to a predetermined waypoint">
 </p>
 
 <p>
-    <img src="/assets/images/mae3260final.png" alt="System properties of the boat over time">
+    <img src="/spring-2025-portfolio-Chinmay-Mangalgi/assets/images/mae3260final.png"
+         alt="System properties of the boat over time">
 </p>
