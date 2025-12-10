@@ -9,8 +9,8 @@ image: /assets/images/cadmodel.png
 <p>
   The final project for this class involved designing a torque wrench that can not only apply a specified
   torque but also measure it using strain gauges. Starting from a steel baseline design, I evaluated
-  structural performance using both hand calculations and finite element analysis (FEA). To improve
-  sensitivity and reduce weight, I selected a new material using materials indices and updated the geometry
+  structural performance using both hand calculations and finite element analysis. To improve
+  sensitivity and reduce weight, I selected a new material using GRANTA materials indices and updated the geometry
   while still meeting required safety factors for strength, fracture, and fatigue. I then verified the
   final design in ANSYS, found the strain at the gauge location, and confirmed that the electrical output is
   sufficient for accurate torque measurement. The results below summarize the design decisions and analyses
