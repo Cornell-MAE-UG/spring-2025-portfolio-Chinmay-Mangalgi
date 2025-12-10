@@ -52,34 +52,28 @@ image: /assets/images/cadmodel.png
         <tr>
             <th>Property</th>
             <th style="text-align:right;">Value</th>
-            <th>Units</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Young's Modulus, E</td>
-            <td style="text-align:right;">13.1 × 10<sup>3</sup></td>
-            <td>ksi</td>
+            <td style="text-align:right;">13.1 × 10<sup>3</sup> ksi</td>
         </tr>
         <tr>
             <td>Poisson's Ratio, ν</td>
             <td style="text-align:right;">0.33</td>
-            <td>—</td>
         </tr>
         <tr>
             <td>Yield Strength, σ<sub>y</sub></td>
-            <td style="text-align:right;">130</td>
-            <td>ksi</td>
+            <td style="text-align:right;">130 ksi</td>
         </tr>
         <tr>
             <td>Fracture Toughness, K<sub>IC</sub></td>
-            <td style="text-align:right;">80.1</td>
-            <td>ksi·√in</td>
+            <td style="text-align:right;">80.1 ksi·√in</td>
         </tr>
         <tr>
             <td>Fatigue Strength (10<sup>6</sup> cycles)</td>
-            <td style="text-align:right;">90</td>
-            <td>ksi</td>
+            <td style="text-align:right;">90 ksi</td>
         </tr>
     </tbody>
 </table>
