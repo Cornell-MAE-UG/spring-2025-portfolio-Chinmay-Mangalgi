@@ -12,9 +12,9 @@ image: /assets/images/cadmodel.png
   structural performance using both hand calculations and finite element analysis (FEA). To improve
   sensitivity and reduce weight, I selected a new material using materials indices and updated the geometry
   while still meeting required safety factors for strength, fracture, and fatigue. I then verified the
-  final design in ANSYS, extracted strain at the gauge location, and confirmed that the electrical output is
+  final design in ANSYS, found the strain at the gauge location, and confirmed that the electrical output is
   sufficient for accurate torque measurement. The results below summarize the design decisions and analyses
-  used to achieve a functional, instrumented torque wrench.
+  I used to design a functional, instrumented torque wrench.
 </p>
 
 <h2>5.2.1 Results</h2>
@@ -34,7 +34,7 @@ image: /assets/images/cadmodel.png
 <p>
   The improved design uses a rectangular beam handle with dimensions
   <em>h</em> = 0.70 in (width in bending direction) and <em>b</em> = 0.35 in (thickness). The load is applied
-  16.0 in from the drive, and the strain gauges are positioned 15.0 in from the drive (1.0 in inboard from
+  16.0 in from the drive, and the strain gauges are positioned 15.0 in from the drive (1.0 in inwards from
   the load). A smooth 0.1 in fillet is included at the drive–handle transition to reduce stress
   concentrations as a design improvement. Total length of the wrench is 17 in.
 </p>
@@ -42,46 +42,46 @@ image: /assets/images/cadmodel.png
 <h3>2. Material Used &amp; Mechanical Properties</h3>
 
 <p>
-  <strong>Material:</strong> β-Ti alloy — Ti-12Mo-6Zr-2Fe (wrought, conservative values taken from Granta)
+  <strong>Material:</strong> β-Ti alloy — Ti-12Mo-6Zr-2Fe (conservative values taken from Granta)
 </p>
 
 <p>Material properties (imperial units):</p>
 
 <table>
-  <thead>
-    <tr>
-      <th>Property</th>
-      <th style="text-align:right;">Value</th>
-      <th>Units / Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Young’s Modulus, E</td>
-      <td style="text-align:right;">13.1e6</td>
-      <td>psi</td>
-    </tr>
-    <tr>
-      <td>Poisson’s Ratio, ν</td>
-      <td style="text-align:right;">0.33</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Yield Strength, σ<sub>y</sub></td>
-      <td style="text-align:right;">130e3</td>
-      <td>psi (130 ksi)</td>
-    </tr>
-    <tr>
-      <td>Fracture Toughness, K<sub>IC</sub></td>
-      <td style="text-align:right;">80.1e3</td>
-      <td>psi·√in (80.1 ksi·√in)</td>
-    </tr>
-    <tr>
-      <td>Fatigue Strength (10<sup>6</sup> cycles)</td>
-      <td style="text-align:right;">90e3</td>
-      <td>psi (90 ksi)</td>
-    </tr>
-  </tbody>
+    <thead>
+        <tr>
+            <th>Property</th>
+            <th style="text-align:right;">Value</th>
+            <th>Units</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Young's Modulus, E</td>
+            <td style="text-align:right;">13.1 × 10<sup>3</sup></td>
+            <td>ksi</td>
+        </tr>
+        <tr>
+            <td>Poisson's Ratio, ν</td>
+            <td style="text-align:right;">0.33</td>
+            <td>—</td>
+        </tr>
+        <tr>
+            <td>Yield Strength, σ<sub>y</sub></td>
+            <td style="text-align:right;">130</td>
+            <td>ksi</td>
+        </tr>
+        <tr>
+            <td>Fracture Toughness, K<sub>IC</sub></td>
+            <td style="text-align:right;">80.1</td>
+            <td>ksi·√in</td>
+        </tr>
+        <tr>
+            <td>Fatigue Strength (10<sup>6</sup> cycles)</td>
+            <td style="text-align:right;">90</td>
+            <td>ksi</td>
+        </tr>
+    </tbody>
 </table>
 
 <p>
@@ -134,7 +134,7 @@ image: /assets/images/cadmodel.png
 </figure>
 
 <p>
-  In the coarse view, the maximum principal stress appears to reach roughly 105 ksi near the clamped
+  In the zoomed view, the maximum principal stress appears to reach roughly 105 ksi near the clamped
   boundary and fillet region. A more refined local mesh shows that the true maximum principal stress is in
   the 40–50 ksi range, which is the value used for safety-factor calculations.
 </p>
@@ -171,7 +171,7 @@ image: /assets/images/cadmodel.png
 </figure>
 
 <p>
-  The FEM strain at the gauge location is approximately 1502&nbsp;με (microstrain), which agrees well with
+  The FEM strain at the gauge location is approximately 1502&nbsp;με (microstrain), which alings with
   the theoretical bending-strain prediction from hand calculations.
 </p>
 
