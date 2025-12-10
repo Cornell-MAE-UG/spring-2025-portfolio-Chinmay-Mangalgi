@@ -84,10 +84,14 @@ $$\frac{\Delta V}{V} = \frac{\mathrm{GF}\cdot\epsilon}{2}$$
 
 Calculated output ≈ 1.5 mV/V at 600 in·lb, which exceeds the target sensitivity of 1.0 mV/V.
 
-### 8. Strain Gauge Selected- **Type:** 350 Ω linear foil gauge, 1-axis
+### 8. Strain Gauge Selected
+
+- **Type:** 350 Ω linear foil gauge, 1-axis
 - **Reference model:** Omega SGD-3-350-LY13
 - **Gauge grid length:** ≈ 0.12 in (3 mm)
 - **Grid width:** ≈ 0.08–0.12 in
 - **Backing / package size:** ≈ 0.25 in × 0.15 in
+
+The wrench handle has 0.70 in of flat width, so there is ample bonding area. Gauges are aligned longitudinally to measure bending strain with one on the top (tension) and one on the bottom (compression), arranged in a half-bridge for increased sensitivity.
 
 The wrench handle has 0.70 in of flat width, so there is ample bonding area. Gauges are aligned longitudinally to measure bending strain with one on the top (tension) and one on the bottom (compression), arranged in a half-bridge for increased sensitivity.
