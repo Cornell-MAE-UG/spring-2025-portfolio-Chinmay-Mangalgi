@@ -54,7 +54,11 @@ footer {
 }
 
 .container {
-  max-width: 600px;
+  /* Allow wider project pages while keeping content centered */
+  max-width: 1000px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .project-item img {
@@ -106,6 +110,30 @@ footer {
   margin: 20px 25px 25px 0;
   max-width: 200px;
   vertical-align: top;
+}
+
+/* Prevent images and floats from causing horizontal overflow on small screens */
+@media (max-width: 768px) {
+  .project-image,
+  .profile-image {
+    float: none;
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+  }
+
+  .inline-image,
+  .inline-image-l,
+  .inline-image-r {
+    max-width: 100%;
+    margin: 0 0 15px 0;
+    float: none !important;
+  }
+
+  main.container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }
 
 .inline-image {
