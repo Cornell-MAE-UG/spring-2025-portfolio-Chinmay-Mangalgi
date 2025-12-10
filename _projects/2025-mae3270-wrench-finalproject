@@ -2,16 +2,15 @@
 layout: project
 title: Torque Wrench FEM Analysis
 description: MAE 3270 Final Project
-topics: Mechanics of Solids (MAE 3270)
-image: /assets/images/YOUR_MAIN_IMAGE.png
+topics: Mechanics of Materials (MAE 3270)
+image: assets/images/cadmodel.png
 ---
 
-## 5.2 Your Design, Upload to Portfolio
-
-### 5.2.1 Results
+The final project for this class involved designing a torque wrench that can not only apply a specified torque but also measure it using strain gauges. Starting from a steel baseline design, I evaluated structural performance using both hand calculations and finite element analysis (FEA). To improve sensitivity and reduce weight, I selected a new material using materials indices and updated the geometry while still meeting required safety factors for strength, fracture, and fatigue. I then verified the final design in ANSYS, extracted strain at the gauge location, and confirmed that the electrical output is sufficient for accurate torque measurement. The results below summarize the design decisions and analyses used to achieve a functional, instrumented torque wrench.
 
 #### 1. Image(s) of CAD Model
-![CAD Model - Key Dimensions](/assets/images/YOUR_CAD_IMAGE.png)
+![CAD Model - Key Dimensions](assets/images/caddimension.png)
+![Zoomed In View of Drive Dimensions](assets/images/Screenshot 2025-12-09 212236.png)
 The improved design uses a rectangular beam handle with dimensions h = 0.70 in (width in bending direction) and b = 0.35 in (thickness). The load is applied 16.0 in from the drive, and the strain gauges are positioned 15.0 in from the drive (1.0 in inboard from the load). A smooth 0.1 in fillet is included at the drive-handle transition to reduce stress concentrations as a design improvement. Total length of the wrench is 17 inches.
 
 #### 2. Material Used & Mechanical Properties
@@ -45,15 +44,20 @@ The max principal stress is about 105 ksi at the interface of the clamped bounda
 
 #### 6. FEM Results Summary
 - **Maximum Normal Stress:** 38282 psi at interface of clamping and filet.
-- **Load Point Deflection:** 0.4577 in
-- **Maximum Deformation:** ![Maximum Deformation](/assets/images/ansysmaxdeformation.png)
-- **Strains at Strain Gauge Locations:** [values]
+- **Max (Load) Point Deflection:** 0.4577 in
+- **Deformation Graph:** ![Deformation Graph](/assets/images/ansysmaxdeformation.png)
+![Strain Contour Plot](assets/images/ansysstrain.png)
+Overall strain distribution across the wrench handle showing tension and compression regions.
+![Strain Gauge Location](assets/images/ansysstrainatgauge2.png)
+Highlighted location where the strain gauge is positioned on the handle surface.
+![FEM Calculated Strain at Gauge](assets/images/ansysstrainatstraingauge.png)
+The FEM calculated strain at the exact strain gauge location is approximately 1502 microstrain, which matches the theoretical bending strain prediction.
 
 #### 7. Torque Wrench Sensitivity (mV/V)
 Using the measured FEM strain at the gauge and a half-bridge configuration:
 $$\frac{\Delta V}{V} = \frac{GF \cdot \epsilon}{2}$$
 Gauge factor GF = 2.0
-Output ≈ 1502 mV/V @ 600 in-lbf, exceeding the required 1.0 mV/V sensitivity.
+Output ≈ 1.5 mV/V @ 600 in-lbf, exceeding the required 1.0 mV/V sensitivity.
 
 #### 8. Strain Gauge Selected
 Strain gauge: 350 Ω linear foil gauge, 1-axis
